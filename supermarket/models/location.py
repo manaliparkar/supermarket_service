@@ -1,18 +1,11 @@
 """Location Model."""
 from oto import response
-from sqlalchemy import asc
-from sqlalchemy import BigInteger
 from sqlalchemy import Column
-from sqlalchemy import Date
-from sqlalchemy import desc
-from sqlalchemy import Enum
 from sqlalchemy import exc
 from sqlalchemy import Integer
 from sqlalchemy import String
 
 from supermarket.connectors import mysql
-# from supermarket.connectors.sentry import sentry_client
-# from supermarket.constants import error
 
 
 class Location(mysql.BaseModel):
