@@ -13,8 +13,6 @@ from supermarket.models.category import Category
 from supermarket.models.subcategory import Subcategory
 
 from supermarket.connectors import mysql
-# from supermarket.connectors.sentry import sentry_client
-# from supermarket.constants import error
 
 
 class Sku(mysql.BaseModel):
