@@ -1,11 +1,6 @@
 """Sku Model."""
 from oto import response
-from sqlalchemy import asc
-from sqlalchemy import BigInteger
 from sqlalchemy import Column
-from sqlalchemy import Date
-from sqlalchemy import desc
-from sqlalchemy import Enum
 from sqlalchemy import exc
 from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
